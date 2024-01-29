@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<form id="form">
+    <div action="" id="myForm" class="form">
+        <label id="labelFormyForm" for="myForm">Göndərən</label>
+        <div class="type">
+            <div>
+                <input type="radio" name="form_type_select" id="huquqi" checked>
+                <label for="huquqi">Hüquqi şəxs</label>
+            </div>
+            <div>
+                <input type="radio" name="form_type_select" id="fiziki">
+                <label for="fiziki">Fiziki şəxs</label>
+            </div>
+        </div>
+        <div class="form-body-fiziki" id="form-body-fiziki">
+            <h4 style="text-align: center">ƏZİZZADƏ ƏZİZ ELXAN OĞLU</h4>
+            <div class="cont">
+                <div class="givenDateCont">
+                    <label for="givenDate">Verilmə tarixi:</label>
+                    <div class="date" id="givenDate">
+                        <select id="day">
+                        </select>
+                        <select id="month">
+                            <option>Yanvar</option>
+                            <option>Fevral</option>
+                            <option>Mart</option>
+                            <option>Aprel</option>
+                            <option>May</option>
+                            <option>Iyun</option>
+                            <option>Iyul</option>
+                            <option>Avqust</option>
+                            <option>Sentyabr</option>
+                            <option>Oktyabr</option>
+                            <option>Noyabr</option>
+                            <option>Dekabr</option>
+                        </select>
+                        <select id="year">
+                        </select>
+                    </div>
+                </div>
+                <br>
+
+                <label for="addressf">Fiziki ünvanı:</label>
+                <input type="text" id="addressf">
+                <br>
+
+                <label for="oper_namef">Xarici iqtisadi əməliyyatın növü:</label>
+                <input type="text" id="oper_namef">
+                <br>
+
+                <label for="contactf">Əlaqə vasitəsi(telefon, faks):</label>
+                <input type="text" id="contactf">
+                <br>
+
+                <label for="emailf">E-poçt:</label>
+                <input type="text" id="emailf">
+            </div>
+        </div>
+        <div class="form-body-huquqi" id="form-body-huquqi">
+            <div class="cont">
+                <label for="nameh">Hüquqi şəxsin adı:</label>
+                <input type="text" id="nameh">
+                <br>
+                <label for="addressh">Hüquqi ünvanı:</label>
+                <input type="text" id="addressh">
+                <br>
+                <label for="oper_nameh">Xarici iqtisadi əməliyyatın növü:</label>
+                <input type="text" id="oper_nameh">
+                <br>
+                <label for="contacth">Əlaqə vasitəsi(telefon, faks):</label>
+                <input type="text" id="contacth">
+                <br>
+                <label for="emailh">E-poçt:</label>
+                <input type="text" id="emailh">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div action="" id="myFormSecond" class="form">
+        <label id="labelFormyFormSecons" for="myForm">Məlumat</label>
+        <div class="flex">
+            <label for="senderInfo">Malalan(mal göndərən) və son istifadəçi haqqında məlumat:</label>
+            <textarea id="senderInfo"></textarea>
+        </div>
+        <br>
+
+        <div class="flex">
+            <label for="lastUseInfo">Malın son istifadəsi və texniki təsnifatı haqqında məlumat:</label>
+            <textarea id="lastUseInfo"></textarea>
+        </div>
+        <br>
+
+        <div class="flex">
+            <label for="ucot">Vergi orqanları tərəfindən uçota alınması haqqında şəhadətnamə:</label>
+            <input type='file' id="ucot">
+        </div>
+        <br>
+
+        <div class="flex">
+            <label for="contract">Bağlanmış müqavilə(kontrakt):</label>
+            <input type='file' id="contract">
+        </div>
+        <br>
+
+        <div class="flex">
+            <label for="menshe_sertifikati">İxrac edilən malın mənşə serfitikatı:</label>
+            <input type='file' id="menshe_sertifikati">
+        </div>
+        <br>
+
+        <div class="flex">
+            <label for="icaze_erize">Xüsusi icazə verilməsi üçün ərizə:</label>
+            <input type='file' id="icaze_erize">
+        </div>
+        <br>
+    </div>
+
+    <div class="submit">
+        <button type="submit">Göndər</button>
+    </div>
+</form>
+    <script src="script.js"></script>
+</body>
+</html>

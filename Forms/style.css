@@ -1,0 +1,165 @@
+.form {
+    height: 500px;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 25%;
+    font-family: Calibri,  sans-serif;
+    padding-top: 50px;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    padding-left: 30px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+body {
+    position: relative;
+}
+#labelFormyForm {
+    position: absolute;
+    top: -1.5ex;
+    z-index: 1;
+    left: 2em;
+    background-color: white;
+    padding: 0 5px;
+}
+#labelFormyFormSecons {
+    max-width: fit-content;
+    position: absolute;
+    top: -1.5ex;
+    z-index: 1;
+    left: 2em;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.form .type {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form .form-body-fiziki {
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+.form .form-body-fiziki .cont {
+    /*background-color: aqua;*/
+    max-width: fit-content;
+    text-align: end;
+}
+
+.form .form-body-fiziki .cont input {
+    margin-bottom: 30px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+
+
+
+
+/*form huquqi*/
+.form .form-body-huquqi {
+    /*background-color: red;*/
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form .form-body-huquqi .cont {
+    /*background-color: aqua;*/
+    max-width: fit-content;
+    text-align: end;
+}
+
+.form .form-body-huquqi .cont input {
+    margin-top: 30px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+
+.givenDateCont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.givenDateCont #givenDate {
+    width: 256px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.givenDateCont #givenDate select {
+    height: 30px;
+    border-radius: 5px;
+}
+.givenDateCont #givenDate #day {
+    width: 50px;
+}
+.givenDateCont #givenDate #month{
+    width: 80px;
+}
+.givenDateCont #givenDate #year {
+    width: 60px;
+}
+
+/*///////////////////////////*/
+textarea {
+    padding: 5px;
+}
+#myFormSecond {
+    height: fit-content;
+    margin-top: 30px;
+}
+#myFormSecond label {
+    width: 270px;
+    display: block;
+    text-align: end;
+    margin-right: 10px;
+}
+
+#myFormSecond .flex {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#myFormSecond .flex textarea{
+    height: 100px;
+    width: 300px;
+}
+
+
+/*///////////////////*/
+.submit {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.submit button {
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #0f5fd9;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.submit button:hover {
+    background-color: #1051b4;
+}
